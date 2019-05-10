@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Martel', serif;
+}
+
+
+
+/*Nav*/
+#mobileNav{
+    display:none;
+}
+
+#logo{
+    text-align: center;
+    padding-top: 30px;
+    background: #edc7a3;
+}
+
+nav{
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+
+nav a{
+    display:block;
+    text-decoration: none;
+    color: #bc9876;
+}
+
+
+/*Bio*/
+#bio{
+    margin:50px;
+}
+
+#bio h1{
+    background:#edc7a3;
+    padding-left: 10px;
+}
+
+#bio img{
+    display: block;
+    float:right;
+    padding: 20px;
+}
+
+#bio p{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+/*Awards*/
+#award{
+    margin:50px;
+}
+
+#award h1{
+    background:#edc7a3;
+    padding-left: 10px;
+}
+
+.col{
+    float:left;
+    margin-left: 50px;
+}
+
+.col{
+    width: 30%;
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width:575px){
+    nav {
+        position:static;
+        display:none;
+        text-align: center;
+    }
+    
+    nav li{
+        display:block;
+    }
+    
+    nav a {
+        width:100%;
+        display:block;
+        border:none;
+        border-bottom: 1px solid black;
+        color: black;
+        text-decoration: none;
+    }
+    
+    #mobileNav{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    
+    #mobileNav a{
+        text-decoration: none;
+        color: black;
+        padding 10px;
+    }
+    
+
+    
+}
+

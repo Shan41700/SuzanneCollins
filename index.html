@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+    <title>Suzanne Collins Books</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+    
+<body>
+    <header>
+        <div id="logo"><img src="assets/images/signature.png"></div>
+        <div id="mobileNav"><a href="#">&#9776</a></div> 
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#award">Achievements</a>
+            <a href="works.html">Works</a>
+        </nav>
+    </header>
+    
+    <div id=bio>
+        <h1>Biography</h1>
+        <div id=bioImg><img src="assets/images/SC.jpg"></div>
+        <div id=bioP>
+        <p>In 1991, Suzanne Collins began her professional career writing for children’s television. She worked on the staffs of several Nickelodeon shows, including the Emmy-nominated hit Clarissa Explains it All and The Mystery Files of Shelby Woo. For preschool viewers, she penned multiple stories for the Emmy-nominated Little Bear and Oswald. She also co-wrote the Rankin/​Bass Christmas special, Santa, Baby! with her friend, Peter Bakalian, which was nominated for a WGA Award in Animation. Most recently she was the Head Writer for Scholastic Entertainment’s Clifford’s Puppy Days,and a freelancer on Wow! Wow! Wubbzy! While working on a Kids WB show called Generation O! she met children’s author and illustrator James Proimos, who talked her into giving children’s books a try.</p>
+
+        <p>Thinking one day about Alice in Wonderland, she was struck by how pastoral the setting must seem to kids who, like her own, lived in urban surroundings. In New York City, you’re much more likely to fall down a manhole than a rabbit hole and, if you do, you’re not going to find a tea party. What you might find...? Well, that’s the story of Gregor the Overlander, the first book in her five-part fantasy/​war series, The Underland Chronicles,which became a New York Times bestseller. It has been sold into 21 foreign territories.</p>
+
+        <p>Her next series, The Hunger Games Trilogy, is an international bestseller. The Hunger Games has spent over six years to date on The New York Times bestseller list since publication in September 2008, and has also appeared consistently on USA Today and Publishers Weekly bestseller lists. It has been sold into 56 territories in 51 languages. In 2010 Collins was named to the TIME 100 list as well as the Entertainment Weekly Entertainers of the Year list.</p>
+
+        <p>Lionsgate released a film adaptation of The Hunger Games on March 23, 2012, directed by Gary Ross who also shared screenplay credit with Suzanne and Billy Ray. It broke multiple box office records and went on to become the 14th highest-grossing North American release of all time on its way to generating nearly $700 million at the worldwide box office. Lionsgate released the second installment The Hunger Games: Catching Fire worldwide on November 22, 2013, directed by Francis Lawrence from a screenplay by Simon Beaufoy and Michael DeBruyn and bringing back stars Jennifer Lawrence, Josh Hutcherson, Liam Hemsworth, Woody Harrelson, Elizabeth Banks, Willow Shields, Paula Malcomson, Donald Sutherland, Stanley Tucci and Lenny Kravitz along with new cast members Philip Seymour Hoffman, Sam Claflin, Jena Malone and Jeffrey Wright. It was the highest-grossing domestic box office release of 2013 and the 10th highest-grossing domestic release of all time. Lionsgate will release The Hunger Games: Mockingjay – Part 1 on November 21, 2014 and The Hunger Games: Mockingjay – Part 2 on November 20, 2015, also directed by Lawrence. All four films are being produced by Nina Jacobson of Color Force and Jon Kilik.</p>
+
+        <p>In September 2013, Suzanne released a critically acclaimed autobiographical picture book,Year of the Jungle, illustrated by James Proimos. It deals with the year she was six and her father was deployed to Viet Nam. It has been sold into 12 territories in 11 languages. Her first picture book, When Charlie McButton Lost Power, about a boy obsessed with computer games, was illustrated by Mike Lester and came out in 2005. It has been sold into 4 foreign territories.</p>
+
+        <p>Her books have sold over 100 million copies worldwide</p>
+        </div>
+    </div>
+    
+    <div id=award>
+        <h1>Awards and Achievements</h1>
+        <div class=col>
+            <ul>
+            <li>California Young Reader Medal</li>
+            <li>Publishers Weekly's Best Books of the Year: Children's Fiction</li>
+            <li>An American Library Association Top 10 Best Books For Young Adult Selection</li>
+            <li>An ALA Notable Children's Book</li>
+            </ul>
+        </div>
+        
+        <div class=col>
+            <ul>
+            <li>2008 CYBIL Award – Fantasy and Science Fiction</li>
+            <li>KIRKUS Best Young Adult Book of 2008</li>
+            <li>A Horn Book Fanfare</li>
+            <li>School Library Journal Best Books of 2008</li>
+            </ul>
+        </div>
+        
+        <div class=col>
+            <ul>
+            <li>A Book List Editor's Choice</li>
+            <li>NY Public Library 100 Titles for Reading and Sharing</li>
+            <li>2004 NAIBA Children's Novel Award</li>
+            <li>2016 Authors Guild Award for Distinguished Service to the Literary Community (first time awarded to an author of young adult fiction)</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; Suzanne Collins</p>
+    </footer>
+    
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $('#mobileNav').click(function(){
+                $('nav').toggle();
+            });
+            
+            $(window).resize(function(){
+                if(window.innerWidth >575){
+                    $('nav').show();
+                };
+            });
+            
+        </script>
+
+        
+</body>
+</html>
