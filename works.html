@@ -19,11 +19,14 @@
         </nav>
     </header>
     
-    <div id=works>
-        <h1>Works</h1>
+    <div id=books>
+        <div id=works>
+            <h1>Books</h1>
+        </div>
+    </div>
         
         <div id=picBook>
-            <h2>Picture Books</h2>
+            <h1>Picture Books</h1>
             
             <div class=pb>
                 <div class=pbImg>
@@ -31,7 +34,7 @@
                 </div>
                 
                 <div class=pbD>
-                    <h3>When Charlie McButton Lost Power</h3>
+                    <h2>When Charlie McButton Lost Power</h2>
                     <p>When a thunderstorm knocks out the electricity, Charlie McButton's whole tech empire comes tumbling down. He needs batteries–FAST. But the only batteries are inside his baby sister's beloved talking doll. Will he resort to desperate measures, and cause his sister to have a meltdown of her own? Or will he snap out of his computer craze long enough to realize sisters can be fun, even without batteries? (Penguin Group, 2005)</p>
                 </div>
             </div>
@@ -42,7 +45,7 @@
                 </div>
                 
                 <div class=pbD>
-                    <h3>Year of the Jungle</h3>
+                    <h2>Year of the Jungle</h2>
                     <p>When Suzy's father is called to war in a faraway jungle, she struggles to deal with his absence.(Scholastic Press, 2013)</p>
                 </div>
                 
@@ -50,7 +53,7 @@
         </div>
         
         <div id=hungerGames>
-            <h2>The Hunger Games Trilogy</h2>
+            <h1>The Hunger Games Trilogy</h1>
             
             <div class=hg>
                 <div class=hgImg>
@@ -58,7 +61,7 @@
                 </div>
                 
                 <div class=hgD>
-                    <h3>The Hunger Games</h3>
+                    <h2>The Hunger Games</h2>
                     <p>Katniss is a 16-year-old girl living with her mother and younger sister in the poorest district of Panem, the remains of what used be North America. Long ago the districts waged war on the Capitol and were defeated. As part of the surrender terms, each district agreed to send one boy and one girl to appear in an annual televised event called, "The Hunger Games." The terrain, rules, and level of audience participation may change but one thing is constant: kill or be killed. When her sister is chosen by lottery, Katniss steps up to go in her place.(Scholastic Press, 2008)
 </p>
                 </div>
@@ -70,7 +73,7 @@
                 </div>
                 
                 <div class=hgD>
-                    <h3>Catching Fire</h3>
+                    <h2>Catching Fire</h2>
                     <p>Much to her shock, Katniss has fueled an unrest she's afraid she cannot stop. And what scares her more is that she's not entirely convinced she should try. As time draws near for Katniss and Peeta to visit the districts on the Capitol's cruel Victory Tour, the stakes are higher than ever. If they can't prove, without a shadow of a doubt, that they are lost in their love for each other, the consequences will be horrifying.(Scholastic Press, 2009)</p>
                 </div>
             </div>
@@ -81,7 +84,7 @@
                 </div>
                 
                 <div class=hgD>
-                    <h3>Mockingjay</h3>
+                    <h2>Mockingjay</h2>
                     <p>Katniss Everdeen, girl on fire, has survived, even though her home has been destroyed. There are rebels. There are new leaders. A revolution is unfolding.(Scholastic Press, 2010)
 </p>
                 </div>
@@ -90,7 +93,7 @@
         </div>
         
         <div id=greg>
-            <h2>The Underland Chronicles</h2>
+            <h1>The Underland Chronicles</h1>
             
             <div class=go>
                 <div class=goImg>
@@ -98,7 +101,7 @@
                 </div>
                 
                 <div class=goD>
-                    <h3>Gregor the Overlander</h3>
+                    <h2>Gregor the Overlander</h2>
                     <p>Meet Gregor, a kid from New York City, who falls out of his laundry room into a fantastical subterranean world called the Underland. Accompanied by his toddler sister, Boots, he encounters giant talking creatures-- cockroaches, bats, spiders and rats--and an unusual society of humans. And they’re all expecting him...(Scholastic Press, 2003)</p>
                 </div>
             </div>
@@ -109,7 +112,7 @@
                 </div>
                 
                 <div class=goD>
-                    <h3>Gregor and the Prophecy of Bane</h3>
+                    <h2>Gregor and the Prophecy of Bane</h2>
                     <p>When giant roaches kidnap Boots and spirit her back to the Underland, Gregor follows to retrieve her. Soon he discovers that they are both implicated in “The Prophecy of Bane,” which warns of the dangers of a terrifying white rat. Guess whose job it is to destroy it? (Scholastic Press, 2004)</p>
                 </div>
             </div>
@@ -148,9 +151,12 @@
             </div>
             
         </div>
-    </div>
     
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <footer>
+        <p>&copy; Suzanne Collins</p>
+    </footer>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script>
             $('#mobileNav').click(function(){
                 $('nav').toggle();
@@ -163,6 +169,22 @@
             });
             
         </script>
+    
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $('#picBook').click(function(){
+                $('.pgImg').toggle();
+                $('.pgD').toggle();
+            });
+            
+            $(window).resize(function(){
+                if(window.innerWidth >575){
+                    $('nav').show();
+                };
+            });
+            
+        </script>
+
 
     
 </body>

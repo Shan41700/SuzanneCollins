@@ -48,8 +48,7 @@ nav a{
 }
 
 #bio p{
-    padding-top: 20px;
-    padding-left: 20px;
+    padding:20px;
 }
 
 
@@ -63,110 +62,153 @@ nav a{
     padding-left: 10px;
 }
 
-.col{
-    float:left;
-    margin-left: 50px;
+#colContain{
+    width:100%;
 }
 
 .col{
-    width: 30%;
+    float:left;
+    width:33.33%;
+}
+.col ul{
+    padding-left:50px;
+    padding-top: 20px;
+}
+
+
+/*Works Button*/
+#bttn{
+    text-align: center;
+}
+#worksBttn{
+    display: inline-block;
+    background:#edc7a3;
+    height:50px;
+    margin-top: 50px;
+    width:300px;
+    text-align: center
+}
+
+#worksBttn a{
+    color: black;
+    display: inline-block;
+    padding-top: 5px;
+    font-size: 25px;
 }
 
 
 /*Works*/ 
-#works h1{
-    padding-left:20px;
-    padding-top:20px;
+#books{
+    text-align: center;
 }
 
-/*Book Cloumns*/
-.pb{
-    height:450px;
-}
-
-.pbImg{
-    width:40%;
-    display:inline-block;
-    float: left;
-    height:100%;
-}
-
-.pbD{
-    width:60%;
-    display:inline-block;
-    height: 100%;
-}
-
-
-.hg{
-    height:550px;
-}
-
-.hgImg{
-    width:40%;
+#works{
     display: inline-block;
-    float: left;
+    margin-top: 20px;
+    padding: 10px 120px 10px 120px;
+    background:#edc7a3;;
+
 }
-
-.hgD{
-    width: 60%;
-    display: inline-block;
-    height:100%;
-}
-
-
-.go{
-    height:550px;
-}
-
-.goImg{
-    width:40%;
-    display: inline-block;
-    float: left;
-}
-
-.goD{
-    width:40%;
-    display: inline-block;
-    float: left;
-}
-
-
-
 
 #picBook{
     margin:50px;
+    margin-top: 20px;
 }
 
-#picBook h2{
+#picBook h1{
     background:#edc7a3;
     padding-left: 10px;
+    padding-top: 0px;
 }
 
 #hungerGames{
     margin:50px;
 }
 
-#hungerGames h2{
+#hungerGames h1{
     background:#edc7a3;
     padding-left: 10px;
-    height:50px;
+    padding-top:0px;
 }
 
 #greg{
     margin:50px;
 }
 
-#greg h2{
+#greg h1{
     background: #edc7a3;
     padding-left: 10px;
+    padding-top:0px;
 }
 
+/*Book Cloumns*/
+/*Picture Books*/
+.pb{
+    height:450px;
+    margin:20px;
+}
 
+.pbImg{
+    width:42%;
+    display:inline-block;
+    float: left;
+    height:100%;
+
+}
+
+.pbD{
+    width:58%;
+    display:inline-block;
+    height: 100%;
+
+}
+
+/*Hunger Games*/
+.hg{
+    height:550px;
+    margin: 20px;
+}
+
+.hgImg{
+    width:30%;
+    display: inline-block;
+    float: left;
+}
+
+.hgD{
+    width: 70%;
+    display: inline-block;
+    height:100%;
+    padding-left: 20px;
+}
+
+/*Gregor the overlander*/
+.go{
+    height:550px;
+    margin: 20px;
+}
+
+.goImg{
+    width:30%;
+    display: inline-block;
+    float: left;
+}
+
+.goD{
+    width:70%;
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+}
+
+footer{
+    display:block;
+}
 
 
 /* Mobile */
 @media screen and (max-width:575px){
+    /*Navigation*/
     nav {
         position:static;
         display:none;
@@ -199,6 +241,46 @@ nav a{
         padding 10px;
     }
     
+    /*Bio*/
+    #bio h1{
+        text-align:center;
+    }
+    
+    #bio img{
+        max-width: 100%;
+    }
+    
+    #award h1{
+        text-align:center;
+    }
+    
+    .col{
+        width:100%
+    }
+    
+    /*Works Page*/
+    #picBook{
+        text-align: center;
+    }
+    
+    #hungerGames{
+        text-align: center;
+    }
+    
+    #greg{
+        text-align: center;
+    }
+    .pb{
+        display:none;
+    }
+    
+    .hg{
+        display:none;
+    }
+    
+    .go{
+        display:none;
+    }
 
     
 }
