@@ -73,6 +73,50 @@ nav a{
 }
 
 
+/*Works*/ 
+#works h1{
+    padding-left:20px;
+    padding-top:20px;
+}
+
+.bookImg{
+    padding:20px;
+    width:50%;
+}
+
+.bookD{
+    width:50%;
+}
+
+#pic{
+    margin:50px;
+}
+
+#pic h2{
+    background:#edc7a3;
+    padding-left: 10px;
+}
+
+#hunger{
+    margin:50px;
+}
+
+#hunger h2{
+    background:#edc7a3;
+    padding-left: 10px;
+    height:50px;
+}
+
+#greg{
+    margin:50px;
+}
+
+#greg h2{
+    background: #edc7a3;
+    padding-left: 10px;
+}
+
+
 
 
 /* Mobile */
