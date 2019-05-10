@@ -79,29 +79,75 @@ nav a{
     padding-top:20px;
 }
 
-.bookImg{
-    padding:20px;
-    width:50%;
+/*Book Cloumns*/
+.pb{
+    height:450px;
 }
 
-.bookD{
-    width:50%;
+.pbImg{
+    width:40%;
+    display:inline-block;
+    float: left;
+    height:100%;
 }
 
-#pic{
+.pbD{
+    width:60%;
+    display:inline-block;
+    height: 100%;
+}
+
+
+.hg{
+    height:550px;
+}
+
+.hgImg{
+    width:40%;
+    display: inline-block;
+    float: left;
+}
+
+.hgD{
+    width: 60%;
+    display: inline-block;
+    height:100%;
+}
+
+
+.go{
+    height:550px;
+}
+
+.goImg{
+    width:40%;
+    display: inline-block;
+    float: left;
+}
+
+.goD{
+    width:40%;
+    display: inline-block;
+    float: left;
+}
+
+
+
+
+#picBook{
     margin:50px;
 }
 
-#pic h2{
+#picBook h2{
     background:#edc7a3;
     padding-left: 10px;
 }
 
-#hunger{
+#hungerGames{
     margin:50px;
 }
 
-#hunger h2{
+#hungerGames h2{
     background:#edc7a3;
     padding-left: 10px;
     height:50px;
