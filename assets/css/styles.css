@@ -259,29 +259,69 @@ footer{
     }
     
     /*Works Page*/
-    #picBook{
-        text-align: center;
-    }
-    
-    #hungerGames{
-        text-align: center;
-    }
-    
-    #greg{
-        text-align: center;
-    }
-    .pb{
-        display:none;
-    }
-    
-    .hg{
-        display:none;
-    }
-    
-    .go{
+    #books{
         display:none;
     }
 
+    .pb{
+        margin:0;
+        height:auto;
+    }
     
+    .pbImg, .pbD{
+        width:100%;
+        display:block;
+    }
+    .pbImg img{
+        max-width:100%;
+        padding:40px 20px 10px 20px;
+    }
+    
+    .pbD h2, p{
+        padding:0px 20px 0px 20px;
+    }
+
+    .hg{
+        margin:0;
+        height:auto;
+    }
+    
+    .hgImg, .hgD{
+        width:100%;
+        display:block;
+    }
+    
+    .hgImg img{
+        max-width:100%;
+        padding:40px 20px 10px 20px;
+    }
+    
+    .hgD h2, p{
+        padding:0px 20px 0px 20px;
+    }
+    
+    .go{
+        margin:0;
+        height:auto;
+    }
+    
+    .goImg, .goD{
+        width:100%;
+        display:block;
+    }
+    
+    .goImg img{
+        max-width:100%;
+        text-align: center;
+        padding:40px 0px 10px 0px;
+    }
+    
+    .goD h2, p{
+        padding:0px 20px 0px 20px;
+    }
+            
+            
+
+
 }
 
