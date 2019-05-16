@@ -154,16 +154,18 @@ nav a{
 }
 
 .pbImg{
-    width:42%;
+    width:33%;
     display:inline-block;
     float: left;
+    padding-left:50px;
     height:100%;
 }
 
 .pbD{
-    width:58%;
+    width:45%;
     display:inline-block;
     height: 100%;
+
 }
 .pb img{
     padding-top:8px;
@@ -176,16 +178,17 @@ nav a{
 }
 
 .hgImg{
-    width:30%;
+    width:25%;
     display: inline-block;
     float: left;
+    padding-left: 50px;
 }
 
 .hgD{
-    width: 70%;
+    width: 55%;
     display: inline-block;
     height:100%;
-    padding-left: 20px;
+
 }
 .hg img{
     padding-top: 8px;
@@ -198,16 +201,16 @@ nav a{
 }
 
 .goImg{
-    width:30%;
+    width:25%;
     display: inline-block;
     float: left;
+    padding-left: 50px;
 }
 
 .goD{
-    width:70%;
+    width:55%;
     display: inline-block;
     float: left;
-    padding-left: 20px;
 }
 
 .go img{
@@ -235,7 +238,10 @@ nav a{
 
     /*Picture Books*/
     .pb{
-        height:400px;
+        height:450px;
+    }
+    .pbImg{
+        padding-left: 0px;
     }
     
     .pb img{
@@ -243,15 +249,23 @@ nav a{
     }
     .pbD{
         padding-left: 20px;
+        padding-right: 0px;
     }
     
     /*Hunger Games*/
+    .hgImg{
+        padding-left: 0px;
+    }
     .hg img{
         max-width: 100%;
     }
     
     .hg{
-        height:400px;
+        height:450px;
+    }
+    .hgD{
+        padding-right:0px;
+        padding-left: 20px;
     }
     
     /*Gregor Overlander*/
@@ -259,11 +273,20 @@ nav a{
         margin-bottom: 150px;
     }
     .go{
-        height:300px;
+        height:350px;
+    }
+    .goImg{
+        padding-left: 0px;
     }
     
     .go img{
         max-width: 100%;
+        padding-left: 0px;
+    }
+    
+    .goD{
+        padding-right:0px;
+        padding-left:20px;
     }
     
 
@@ -360,6 +383,7 @@ nav a{
     }
     .pbD{
         padding-left:0px;
+        padding-right: 0px;
     }
 
     /* Hunger Games*/
@@ -377,6 +401,7 @@ nav a{
     }
     .hgD{
         padding-left: 0px;
+        padding-right: 0px;
     }
     
     .hgImg img{
@@ -404,6 +429,7 @@ nav a{
     
     .goD{
         padding-left: 0px;
+        padding-right: 0px;
     }
     .goD p{
         padding-left: 0px;
