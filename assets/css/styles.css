@@ -69,6 +69,7 @@ nav a{
 .col{
     float:left;
     width:33.33%;
+    height:100px;
 }
 .col ul{
     padding-left:50px;
@@ -77,16 +78,19 @@ nav a{
 
 
 /*Works Button*/
-#bttn{
+#bttnCol{
     text-align: center;
 }
-#worksBttn{
+#bttn{
     display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#worksBttn{
+    text-align: center;
     background:#edc7a3;
     height:50px;
-    margin-top: 50px;
     width:300px;
-    text-align: center
 }
 
 #worksBttn a{
@@ -94,6 +98,7 @@ nav a{
     display: inline-block;
     padding-top: 5px;
     font-size: 25px;
+
 }
 
 
@@ -153,14 +158,15 @@ nav a{
     display:inline-block;
     float: left;
     height:100%;
-
 }
 
 .pbD{
     width:58%;
     display:inline-block;
     height: 100%;
-
+}
+.pb img{
+    padding-top:8px;
 }
 
 /*Hunger Games*/
@@ -180,6 +186,9 @@ nav a{
     display: inline-block;
     height:100%;
     padding-left: 20px;
+}
+.hg img{
+    padding-top: 8px;
 }
 
 /*Gregor the overlander*/
@@ -201,13 +210,68 @@ nav a{
     padding-left: 20px;
 }
 
-footer{
-    display:block;
+.go img{
+    padding-top:8px;
 }
 
 
-/* Mobile */
-@media screen and (max-width:575px){
+/*Mobile...Ipad*/
+@media screen and (max-width:1000px){
+    /*Bio*/
+    #bioImg{
+        text-align: center;
+    }
+    #bio img{
+        display: inline-block;
+        float:none;
+        text-align: center;
+    }
+    #bio p{
+        padding-top: 0px;
+    }
+    .col{
+        height:auto;
+    }
+
+    /*Picture Books*/
+    .pb{
+        height:400px;
+    }
+    
+    .pb img{
+        max-width: 100%;
+    }
+    .pbD{
+        padding-left: 20px;
+    }
+    
+    /*Hunger Games*/
+    .hg img{
+        max-width: 100%;
+    }
+    
+    .hg{
+        height:400px;
+    }
+    
+    /*Gregor Overlander*/
+    #greg{
+        margin-bottom: 150px;
+    }
+    .go{
+        height:300px;
+    }
+    
+    .go img{
+        max-width: 100%;
+    }
+    
+
+
+}
+
+/* Mobile...IphoneX */
+@media screen and (max-width:600px){
     /*Navigation*/
     nav {
         position:static;
@@ -250,12 +314,21 @@ footer{
         max-width: 100%;
     }
     
+    #bio p{
+        font-size: 12px;
+    }
+    
     #award h1{
         text-align:center;
     }
     
+    #award li{
+        font-size: 12px;
+    }
+    
     .col{
-        width:100%
+        width:100%;
+        height: auto;
     }
     
     /*Works Page*/
@@ -263,6 +336,11 @@ footer{
         display:none;
     }
 
+    
+    /* Picture Books*/
+    #picBook h1{
+        text-align: center;
+    }
     .pb{
         margin:0;
         height:auto;
@@ -280,7 +358,14 @@ footer{
     .pbD h2, p{
         padding:0px 20px 0px 20px;
     }
+    .pbD{
+        padding-left:0px;
+    }
 
+    /* Hunger Games*/
+    #hungerGames h1{
+        text-align: center;
+    }
     .hg{
         margin:0;
         height:auto;
@@ -289,6 +374,9 @@ footer{
     .hgImg, .hgD{
         width:100%;
         display:block;
+    }
+    .hgD{
+        padding-left: 0px;
     }
     
     .hgImg img{
@@ -300,6 +388,10 @@ footer{
         padding:0px 20px 0px 20px;
     }
     
+    /* Gregor Overlander*/
+    #greg h1{
+        text-align: center;
+    }
     .go{
         margin:0;
         height:auto;
@@ -310,15 +402,20 @@ footer{
         display:block;
     }
     
+    .goD{
+        padding-left: 0px;
+    }
+    .goD p{
+        padding-left: 0px;
+    }
+    
     .goImg img{
         max-width:100%;
         text-align: center;
         padding:40px 0px 10px 0px;
     }
     
-    .goD h2, p{
-        padding:0px 20px 0px 20px;
-    }
+
             
             
 
