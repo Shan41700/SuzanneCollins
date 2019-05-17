@@ -154,7 +154,7 @@ nav a{
 }
 
 .pbImg{
-    width:33%;
+    width:25%;
     display:inline-block;
     float: left;
     padding-left:50px;
@@ -178,7 +178,7 @@ nav a{
 }
 
 .hgImg{
-    width:25%;
+    width:20%;
     display: inline-block;
     float: left;
     padding-left: 50px;
@@ -201,7 +201,7 @@ nav a{
 }
 
 .goImg{
-    width:25%;
+    width:20%;
     display: inline-block;
     float: left;
     padding-left: 50px;
@@ -238,7 +238,7 @@ nav a{
 
     /*Picture Books*/
     .pb{
-        height:450px;
+        height:350px;
     }
     .pbImg{
         padding-left: 0px;
@@ -250,6 +250,7 @@ nav a{
     .pbD{
         padding-left: 20px;
         padding-right: 0px;
+        width: 75%;
     }
     
     /*Hunger Games*/
@@ -261,11 +262,12 @@ nav a{
     }
     
     .hg{
-        height:450px;
+        height:350px;
     }
     .hgD{
         padding-right:0px;
         padding-left: 20px;
+        width: 75%
     }
     
     /*Gregor Overlander*/
@@ -287,6 +289,7 @@ nav a{
     .goD{
         padding-right:0px;
         padding-left:20px;
+        width: 75%
     }
     
 
@@ -331,6 +334,7 @@ nav a{
     /*Bio*/
     #bio h1{
         text-align:center;
+        font-size: 25px;
     }
     
     #bio img{
@@ -343,6 +347,7 @@ nav a{
     
     #award h1{
         text-align:center;
+        font-size:25px;
     }
     
     #award li{
@@ -363,6 +368,7 @@ nav a{
     /* Picture Books*/
     #picBook h1{
         text-align: center;
+        font-size: 25px;
     }
     .pb{
         margin:0;
@@ -389,6 +395,7 @@ nav a{
     /* Hunger Games*/
     #hungerGames h1{
         text-align: center;
+        font-size: 25px;
     }
     .hg{
         margin:0;
@@ -416,6 +423,7 @@ nav a{
     /* Gregor Overlander*/
     #greg h1{
         text-align: center;
+        font-size: 25px;
     }
     .go{
         margin:0;
